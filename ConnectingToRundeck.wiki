@@ -1,0 +1,18 @@
+
+- rundeck was added by Ravi 26 Mar
+- connected through rundeck.kineticcommercetools.io
+- unsure of username for SSH
+- modified to allow connection from VPN endpoint
+
+- can add another one for operations stuff if required - different service on diff port
+- KCS stuff is there
+
+Is there a repo? Building an AMI?
+cannot SSH
+
+
+
+
+would like to
+- use my new hardening script
+- 

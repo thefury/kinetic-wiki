@@ -1,0 +1,40 @@
+# KCS Into Nomad
+
+:kinetic:project:infrastructure:
+
+Ongoing tasks are in taskwarrior. Use the following command to limit:
+
+    `$ task context kc.nomad`
+
+## Links
+
+*repo*: [[https://bitbucket.org/halogenmobile/kcs-nomad-infrastructure/src/master/|bitbucket]]
+
+## Overview
+
+While in the past, we have been able to rely on a single provider for a single product, we are entering
+a space which will require using multiple clouds. Because of this, we will be converting our application
+and infrastructure to run on an orchestrator - probably Nomad.
+
+We already have a system of Infrastructure as Code in place with Terraform and Packer. To reach this
+goal we will continue along the path of containerization and orchestration. This will allow our single
+code base to run with minimal changes on different clouds. It will, in effect, reduce the cloud specific
+changes to terraform and push them to a cloud agnostic tool, such as Nomad.
+
+## Goals
+
+We need to ensure that our system can be used across multiple cloud providers. 
+
+- self healing in some way - probably ASG
+- configuration on the fly - something like Consul Template
+- secrets storage - something like Vault
+- auto scaling to handle traffic bursts
+- full IaC in job files
+
+## Log
+
+### 2020-02-25 Tue
+
+- I'm working with the repository `nomad-poc`. Everything is pretty much ready to go;
+
+

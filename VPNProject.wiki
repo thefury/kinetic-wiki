@@ -1,0 +1,38 @@
+
+= OpenVPN =
+
+:openvpn:kctools:
+
+OpenVPN 
+
+why we're going with this
+
+what we've done
+
+location of thigns
+
+how to connect through a client
+
+how to administer the vpn
+
+initializationa and bootstrapping
+
+generating a client
+revoking a client
+auditing the system
+
+
+
+password is in 1password
+encrypted volume added https://devopscube.com/mount-ebs-volume-ec2-instance/
+mounted
+init run
+turned off executable bit for init
+
+ensure everything starts again on reboot
+://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html#ebs-mount-after-rebootFW updated
+
+
+
+
+

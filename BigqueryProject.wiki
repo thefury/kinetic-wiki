@@ -1,0 +1,8 @@
+= Connecting to database in heroku =
+
+:lowes:heroku:database:
+
+```bash
+heroku login
+heroku psql postgresql-animate-34505 --app dit-lowesweb-kineticcafe
+```
